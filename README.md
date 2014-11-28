@@ -39,6 +39,10 @@
 
 ![拖拽提示](resource/add_framework.png)
 
+## 最终运行测试效果
+
+![最终运行效果](resource/project_run.png)
+
 ## Contact
 
 **author:** Andy Jin  
