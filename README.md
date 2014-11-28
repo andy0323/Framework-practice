@@ -10,7 +10,7 @@
 
 4. 新建项目时，在**Framework & Library**中可如果看到**Cocoa Touch Framework**就说明已经安装成功了。
 
-![选择项目模板界面](resource/choose_project_tmp.png)
+![选择项目模板界面](resource/choose_project.png)
 
 传送门: [模板官网](https://github.com/kstenerud/iOS-Universal-Framework) 
 
