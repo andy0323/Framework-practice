@@ -29,13 +29,14 @@
 ## 如何将Framework嵌入项目
 
 1. 创建一个iOS工程项目
-2. 将已创建的Framework工程文件夹添加到原工程的文件目录下
-3. 将Framework的Framework.xcodeproj拖拽到原工程同级目录下，请参考图片提示
-4. 打开**Buikd Phases**，展开**Target Dependencies**，将Framework添加作为依赖项
-5. 打开**Buikd Phases**，展开**Link Binary With Libraries**，将Framework加入依赖库
-6. 在Appdelegate中添加<Framework/Header.h>
-7. `Command + B`
-8. 编译成功，则表示嵌入成功
+*  将已创建的Framework工程文件夹添加到原工程的文件目录下
+*  将Framework的Framework.xcodeproj拖拽到原工程同级目录下，请参考图片提示
+*  打开**Build Setting**，添加**Linker Flag**，内容为`-ObjC -all_load`
+*  打开**Buikd Phases**，展开**Target Dependencies**，将Framework添加作为依赖项
+*  打开**Buikd Phases**，展开**Link Binary With Libraries**，将Framework加入依赖库
+*  在Appdelegate中添加<Framework/Header.h>
+*  `Command + B`
+*  编译成功，则表示嵌入成功
 
 ![拖拽提示](resource/add_framework.png)
 
